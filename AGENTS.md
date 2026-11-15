@@ -107,3 +107,23 @@
 
 > آخر تحديث: إعادة بناء كاملة لفئة الحيوانات (48 كائناً + 48 منسّقاً) — كل الأرقام أعلاه متحقق منها
 > برمجياً وبصرياً على المسرح. لو عدّلت شي جوهري، حدّث هذا الملف والـ blueprint معاً.
+
+## 9. وضع الأونلاين (Supabase) — وشو بيبدأ شاشة "إعداد الأونلاين مطلوب"
+
+شاشة الإعداد بتطلع لخطأين حصراً:
+- `SUPABASE_NOT_CONFIGURED` → المتغيرات `VITE_SUPABASE_URL` / `VITE_SUPABASE_ANON_KEY` مش موجودة
+  **بالبيئة اللي اتبنى فيها** (Vite بيدمجها وقت البناء فقط — على Netlify لازم تُضاف بالـ dashboard ثم
+  "Clear cache and deploy"، والتعديل بـ `.env.local` ما بيوصل للمنشور لحاله).
+- `ANON_DISABLED` → Anonymous Sign-Ins مش مفعّلة: Supabase → Authentication → Sign In / Providers
+  → تفعيل + **Save** (التوغل بروحه بلا Save ما بيكفي).
+
+الخطوات الصح بالترتيب: (1) تشغيل `supabase/online-multiplayer.sql` بـ SQL Editor — الملف آمن
+للتكرار (`if not exists` بالكامل). (2) تفعيل Anonymous Sign-Ins + Save. (3) متغيرات البيئة على
+الاستضافة ثم rebuild.
+
+**بروتوكول التحقق** (كلها من تبويب على dev server):
+1. `import('/src/lib/supabase.ts')` → `supabase.auth.signInAnonymously()` لازم ينجح.
+2. `supabase.rpc('get_server_now')` لازم يرجع وقت — فشله بمعنى "function not found" = SQL انشغل
+   **بمشروع غلط** أو انشغل أصلاً.
+3. فتح الواجهة → "العب أونلاين" → لازم تظهر بهو الأونلاين (إنشاء غرفة) بلا شاشة إعداد.
+4. مفتاح anon publishable — ينشروا مع الكود عادي؛ اللي ما يننشر أبداً هو `service_role`.
