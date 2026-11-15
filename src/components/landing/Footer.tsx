@@ -45,10 +45,6 @@ export default function Footer() {
           </a>
         </div>
       </div>
-
-      <p className="mt-8 border-t border-line pt-5 text-center text-[11px] text-ink-muted">
-        {t('footerDeveloper')}
-      </p>
     </footer>
   );
 }
