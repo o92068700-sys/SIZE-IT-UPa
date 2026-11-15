@@ -14,7 +14,7 @@ import {
   saveOnlineName,
   sendHeartbeat,
   serverNow,
-  setRoomCodeInUrl,
+  clearRoomCodeFromUrl,
   startOnlineRoom,
   submitOnlineEstimate,
   syncServerClock,
@@ -121,7 +121,10 @@ export function useRoom() {
       setLoadState('ready');
       setError(null);
       saveOnlineName(payload.player.name);
-      setRoomCodeInUrl(payload.room.code);
+      // The room code must never sit in the address bar — a live-streamed tab
+      // would expose it to everyone watching. Invite links still carry it and
+      // are consumed once, then scrubbed.
+      clearRoomCodeFromUrl();
       void refresh(true);
     },
     [refresh],

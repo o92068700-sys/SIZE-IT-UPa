@@ -144,8 +144,11 @@ export default function LobbyView({
                   <p className="text-[11px] font-semibold uppercase tracking-[0.16em] text-ink-muted">
                     {t('onlineRoomCode')}
                   </p>
-                  <p className="mt-1 font-mono text-4xl font-extrabold tracking-[0.28em] text-ink sm:text-5xl">
-                    {room.code}
+                  <p
+                    className="mt-1 font-mono text-4xl font-extrabold tracking-[0.28em] text-ink/40 sm:text-5xl"
+                    aria-label={t('onlineRoomCode')}
+                  >
+                    {'••••••'}
                   </p>
                 </div>
                 <div className="flex flex-wrap gap-2">
@@ -176,16 +179,6 @@ export default function LobbyView({
                 </div>
               </div>
 
-              <div className="mt-4 flex items-center gap-2 rounded-lg border border-line bg-night/50 p-2.5">
-                <Link2 size={14} className="shrink-0 text-ink-muted" />
-                <input
-                  readOnly
-                  value={link}
-                  aria-label={t('onlineInviteLink')}
-                  onFocus={(event) => event.currentTarget.select()}
-                  className="min-w-0 flex-1 bg-transparent text-xs text-ink-muted outline-none"
-                />
-              </div>
               <p className="mt-2 text-[11px] text-ink-muted">{t('onlineInviteHint')}</p>
             </div>
 

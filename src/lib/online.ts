@@ -217,16 +217,6 @@ export function roomCodeFromUrl(): string {
   }
 }
 
-export function setRoomCodeInUrl(code: string) {
-  try {
-    const url = new URL(window.location.href);
-    url.searchParams.set('room', normalizeRoomCode(code));
-    window.history.replaceState({}, '', `${url.pathname}${url.search}${url.hash}`);
-  } catch {
-    // Ignore history errors.
-  }
-}
-
 export function clearRoomCodeFromUrl() {
   try {
     const url = new URL(window.location.href);

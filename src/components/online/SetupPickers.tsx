@@ -4,7 +4,7 @@ import { useLanguage } from '@/i18n/LanguageProvider';
 import { onlineRoundCount } from '@/lib/online';
 import type { CategoryId } from '@/types/game';
 
-const SECONDS_OPTIONS = [5, 10, 20] as const;
+const SECONDS_OPTIONS = [10, 20, 30] as const;
 
 interface CategoryPickerProps {
   value: CategoryId;
