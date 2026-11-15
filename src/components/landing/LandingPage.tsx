@@ -1,5 +1,6 @@
 import CategoryCards from '@/components/landing/CategoryCards';
 import ComingLab from '@/components/landing/ComingLab';
+import Credits from '@/components/landing/Credits';
 import Dedication from '@/components/landing/Dedication';
 import Footer from '@/components/landing/Footer';
 import Hero from '@/components/landing/Hero';
@@ -29,6 +30,7 @@ export default function LandingPage({ onSelect, onOnline }: LandingPageProps) {
       <ComingLab />
       <LeaderboardSection />
       <Dedication />
+      <Credits />
       <Footer />
     </>
   );

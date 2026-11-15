@@ -34,6 +34,9 @@ export default function Footer() {
           <a href="#dedication" className="transition hover:text-ink">
             {t('footerDedication')}
           </a>
+          <a href="#credits" className="transition hover:text-ink">
+            {t('footerCredits')}
+          </a>
         </div>
 
         <div className="flex flex-col gap-1.5 sm:items-end">

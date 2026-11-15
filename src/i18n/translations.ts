@@ -382,6 +382,23 @@ const en = {
   footerRights: 'All measurements are approximate by nature.',
   footerBuilt: 'Built for the love of the game',
   footerMapCredit: 'Map silhouettes: mapsicon by djaiss',
+  footerCredits: 'The builder',
+
+  // Credits — the final section
+  creditsKicker: 'The builder',
+  creditsTitle: 'Omar Shdeifat',
+  creditsRole: 'Designed & coded by hand — every bracket, every silhouette, every round.',
+  creditsBody:
+    'The mystery object behind the game. While you measure everything by eye, he measured every screen, every ratio and every animation — until it felt right.',
+  creditsStatsScope: 'Scope',
+  creditsStatsScopeValue: 'Design + Code',
+  creditsStatsTemplates: 'Templates used',
+  creditsStatsTemplatesValue: '0',
+  creditsStatsObsession: 'Obsession level',
+  creditsStatsObsessionValue: '∞',
+  creditsRatioCaption: 'designer ÷ programmer — same person, ratio exactly 1.',
+  creditsMysteryTag: 'Mystery object — revealed',
+  creditsAlt: 'Omar Shdeifat, the designer and developer of Size It Up',
 
   // Units
   unitM: 'm',
@@ -754,6 +771,22 @@ const ar: Record<TranslationKey, string> = {
   footerRights: 'كل القياسات تقريبية بطبيعتها.',
   footerBuilt: 'صُنعت بحبّ للعبة',
   footerMapCredit: 'أشكال الخرائط: mapsicon من djaiss',
+  footerCredits: 'البنّاء',
+
+  creditsKicker: 'البنّاء',
+  creditsTitle: 'عمر شديفات',
+  creditsRole: 'صمّم وبنى الموقع بيديه — كل براكيت، كل سلويت، كل جولة.',
+  creditsBody:
+    'الجسم الغامض اللي كان وراء اللعبة. أنتم بتقيسوا كل شي بالعين، وهو قاس كل شاشة وكل نسبة وكل حركة — لحين حسّها صحيحة.',
+  creditsStatsScope: 'المسؤولية',
+  creditsStatsScopeValue: 'تصميم + كود',
+  creditsStatsTemplates: 'قوالب مستخدمة',
+  creditsStatsTemplatesValue: '0',
+  creditsStatsObsession: 'مستوى الوسواس',
+  creditsStatsObsessionValue: '∞',
+  creditsRatioCaption: 'مصمّم ÷ مبرمج — نفس الشخص، النسبة 1 بالضبط.',
+  creditsMysteryTag: 'جسم غامض — انكشف',
+  creditsAlt: 'عمر شديفات، مصمم ومبرمج Size It Up',
 
   unitM: 'م',
   unitCm: 'سم',
