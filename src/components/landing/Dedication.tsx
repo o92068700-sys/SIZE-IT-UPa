@@ -19,10 +19,10 @@ export default function Dedication() {
           <div className="absolute -inset-2 rounded-2xl border border-line" aria-hidden="true" />
           <div className="corner-brackets relative aspect-square overflow-hidden rounded-xl border border-line bg-night">
             <img
-              src="/assets/maherco/maherco-raw.jpg"
-              alt={t('dedicationTitle')}
-              width={447}
-              height={447}
+              src="https://i.postimg.cc/XYZm9JxX/2064511567.png"
+              alt={t('dedicationBuilder')}
+              width={800}
+              height={800}
               loading="lazy"
               className="h-full w-full object-cover grayscale contrast-110"
             />
@@ -35,7 +35,7 @@ export default function Dedication() {
               <span className="tabular-nums">1:1</span>
             </div>
           </div>
-          <p className="mt-4 text-center text-[11px] text-ink-muted lg:text-start">{t('dedicationSchedule')}</p>
+          <p className="mt-4 text-center text-[11px] text-ink-muted lg:text-start">{t('dedicationBuilder')}</p>
         </div>
 
         <div>
