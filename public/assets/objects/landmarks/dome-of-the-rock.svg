@@ -1,0 +1,11 @@
+<svg preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 54 35" fill="#000" fill-rule="evenodd">
+  <!-- Dome of the Rock silhouette -->
+  <path d="M0 35 H54 V18 H39 V11 H37 C37 5 33 2.5 27 2.5 C21 2.5 17 5 17 11 H15 V18 H0 Z 
+           M26.5 0 L27.5 0 L27.5 2.5 L26.5 2.5 Z
+           M25 0.5 A 1.2 1.2 0 1 1 27 2 A 1.2 1.2 0 1 0 25 0.5 Z
+           M18 13 H20 V16 H18 Z M22 13 H24 V16 H22 Z M26 13 H28 V16 H26 Z M30 13 H32 V16 H30 Z M34 13 H36 V16 H34 Z
+           M4 23 H8 V32 H4 Z M12 23 H16 V32 H12 Z M20 23 H24 V32 H20 Z
+           M25 21 H29 V35 H25 Z
+           M30 23 H34 V32 H30 Z M38 23 H42 V32 H38 Z M46 23 H50 V32 H46 Z"/>
+</svg>
+

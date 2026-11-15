@@ -1,0 +1,6 @@
+<svg preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 192" fill="#000" fill-rule="evenodd">
+  <path d="M14 0 H16 V12 H18 V16 L23 38 H25 V40 H26 V62 H25 V64 H24 V192 H6 V64 H5 V62 H4 V40 H5 V38 L12 16 V12 H14 Z 
+           M15 44 A 7 7 0 1 0 15 58 A 7 7 0 1 0 15 44 Z
+           M11 74 H13 V120 H11 Z M17 74 H19 V120 H17 Z
+           M11 130 H13 V176 H11 Z M17 130 H19 V176 H17 Z"/>
+</svg>

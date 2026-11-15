@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Size It Up">
+  <rect width="64" height="64" rx="12" fill="#120E1C"/>
+  <rect x="8" y="8" width="48" height="48" rx="6" fill="#F4EBDD"/>
+  <path d="M8 45.5h48" stroke="#120E1C" stroke-opacity=".4" stroke-width="2"/>
+  <path d="M17 45.5v-11M26 45.5v-6M35 45.5v-13M52 45.5v-6" stroke="#120E1C" stroke-opacity=".65" stroke-width="2.5"/>
+  <path d="M44 45.5v-18" stroke="#FF3D3D" stroke-width="3"/>
+</svg>

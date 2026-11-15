@@ -1,0 +1,14 @@
+<svg preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 31 93" fill="#000">
+  <!-- Star base & pedestal -->
+  <path d="M0 93 L4 88 H27 L31 93 Z"/>
+  <path d="M5 88 H26 V84 H24 V54 H26 V50 H5 V54 H7 V84 H5 Z"/>
+  <!-- Statue: Robe, Tablet, Head, Raised Arm & Torch -->
+  <path d="M9 50 L8 45 L7 32 H10 V40 L12 49 H19 L21 40 L23 20 L24 8 H22 L24 2 C24 0 26 0 26 2 L27 8 H25 L24 20 L22 36 L20 50 Z"/>
+  <!-- Head & 7-Spike Crown -->
+  <path d="M13 18 C13 15 14 13 16 13 C18 13 19 15 19 18 C19 20 18 22 16 22 C14 22 13 20 13 18 Z"/>
+  <!-- Spikes of Crown -->
+  <path d="M13 14 L11 11 M14 13 L13 9 M15 12 L15 8 M16 12 L17 8 M17 13 L19 9 M18 14 L21 11" stroke="#000" stroke-width="1.2" stroke-linecap="round"/>
+  <!-- Torch flame -->
+  <path d="M23 8 H27 L25 4 C24 1 26 0 25 0 C23 2 22 5 23 8 Z"/>
+</svg>
+
