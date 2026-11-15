@@ -49,7 +49,7 @@ export default function ComingLab() {
   }, [lang]);
 
   return (
-    <section id="lab" className="relative overflow-hidden border-b border-line">
+    <section id="lab" className="relative scroll-mt-20 overflow-hidden border-b border-line">
       <div className="absolute inset-0 bg-night" aria-hidden="true" />
       <div className="absolute inset-0 bg-starfield opacity-80" aria-hidden="true" />
       <div

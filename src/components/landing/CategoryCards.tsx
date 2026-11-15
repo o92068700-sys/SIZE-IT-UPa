@@ -29,7 +29,7 @@ export default function CategoryCards({ onSelect }: CategoryCardsProps) {
   const { t, lang } = useLanguage();
 
   return (
-    <section id="categories" className="relative border-b border-line py-20 sm:py-24">
+    <section id="categories" className="relative scroll-mt-20 border-b border-line py-20 sm:py-24">
       <div className="mx-auto max-w-7xl px-4 sm:px-6">
         <div className="max-w-2xl">
           <h2 className="font-display text-3xl font-extrabold text-ink sm:text-5xl">{t('categoriesTitle')}</h2>

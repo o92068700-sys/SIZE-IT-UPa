@@ -23,7 +23,7 @@ export default function OnlineSection({ onOnline }: OnlineSectionProps) {
   const { t } = useLanguage();
 
   return (
-    <section id="online" className="relative overflow-hidden border-b border-line py-20 sm:py-24">
+    <section id="online" className="relative scroll-mt-20 overflow-hidden border-b border-line py-20 sm:py-24">
       <div className="absolute inset-0 bg-blueprint opacity-40" aria-hidden="true" />
       <div
         className="pointer-events-none absolute -top-24 start-1/4 h-72 w-72 rounded-full bg-reference/10 blur-[110px]"

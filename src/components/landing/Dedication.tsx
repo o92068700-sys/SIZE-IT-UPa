@@ -7,7 +7,7 @@ export default function Dedication() {
   const { t } = useLanguage();
 
   return (
-    <section id="dedication" className="relative overflow-hidden border-b border-line py-20 sm:py-24">
+    <section id="dedication" className="relative scroll-mt-20 overflow-hidden border-b border-line py-20 sm:py-24">
       <div className="absolute inset-0 bg-blueprint opacity-40" aria-hidden="true" />
       <div
         className="absolute -top-24 start-1/3 h-72 w-72 rounded-full bg-onair/10 blur-[100px]"
