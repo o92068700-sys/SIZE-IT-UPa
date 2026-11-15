@@ -28,9 +28,6 @@ export default function Footer() {
           <a href="#lab" className="transition hover:text-ink">
             {t('navLab')}
           </a>
-          <a href="#leaderboard" className="transition hover:text-ink">
-            {t('navLeaderboard')}
-          </a>
           <a href="#dedication" className="transition hover:text-ink">
             {t('footerDedication')}
           </a>
@@ -48,6 +45,10 @@ export default function Footer() {
           </a>
         </div>
       </div>
+
+      <p className="mt-8 border-t border-line pt-5 text-center text-[11px] text-ink-muted">
+        {t('footerDeveloper')}
+      </p>
     </footer>
   );
 }

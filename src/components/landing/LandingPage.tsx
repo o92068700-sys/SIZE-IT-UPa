@@ -5,7 +5,6 @@ import Footer from '@/components/landing/Footer';
 import Hero from '@/components/landing/Hero';
 import HowToPlay from '@/components/landing/HowToPlay';
 import IntroSequence from '@/components/landing/IntroSequence';
-import LeaderboardSection from '@/components/landing/LeaderboardSection';
 import OnlineSection from '@/components/landing/OnlineSection';
 import type { CategoryId } from '@/types/game';
 
@@ -27,7 +26,6 @@ export default function LandingPage({ onSelect, onOnline }: LandingPageProps) {
       <OnlineSection onOnline={onOnline} />
       <CategoryCards onSelect={onSelect} />
       <ComingLab />
-      <LeaderboardSection />
       <Dedication />
       <Footer />
     </>

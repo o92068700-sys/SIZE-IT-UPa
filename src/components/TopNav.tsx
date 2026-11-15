@@ -52,9 +52,6 @@ export default function TopNav({
             <a href="#lab" className="transition hover:text-ink">
               {t('navLab')}
             </a>
-            <a href="#leaderboard" className="transition hover:text-ink">
-              {t('navLeaderboard')}
-            </a>
             <a href="#dedication" className="transition hover:text-ink">
               {t('dedicationKicker')}
             </a>

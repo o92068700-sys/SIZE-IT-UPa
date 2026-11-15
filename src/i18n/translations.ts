@@ -384,6 +384,7 @@ const en = {
   footerMapCredit: 'Map silhouettes: mapsicon by djaiss',
 
   dedicationBuilder: 'Designed & built by the programmer — Omar Shdeifat',
+  footerDeveloper: 'Developer: Omar Shdeifat',
 
   // Units
   unitM: 'm',
@@ -758,6 +759,7 @@ const ar: Record<TranslationKey, string> = {
   footerMapCredit: 'أشكال الخرائط: mapsicon من djaiss',
 
   dedicationBuilder: 'صمّم وبنى الموقع: المبرمج عمر شديفات',
+  footerDeveloper: 'المطور: عمر شديفات',
 
   unitM: 'م',
   unitCm: 'سم',
