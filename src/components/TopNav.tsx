@@ -27,7 +27,7 @@ export default function TopNav({
   return (
     <header className="sticky top-0 z-40 border-b border-line/80 bg-night/85 backdrop-blur-md">
       <div className="mx-auto flex h-16 max-w-7xl items-center justify-between gap-3 px-4 sm:px-6">
-        <a href="#top" className="group flex items-center gap-2.5" aria-label="Size It Up">
+        <a href="#top" className="group flex items-center gap-2.5" aria-label="SizIQ">
           <span className="relative flex h-9 w-9 items-center justify-center overflow-hidden rounded-md bg-paper text-night">
             <span className="absolute inset-x-0 bottom-0 h-2.5 border-t border-night/40" aria-hidden="true" />
             <span className="absolute bottom-0 left-[18%] h-2 w-px bg-night/50" aria-hidden="true" />
@@ -36,7 +36,7 @@ export default function TopNav({
             <span className="absolute bottom-0 left-[82%] h-3 w-px bg-onair" aria-hidden="true" />
           </span>
           <span className="flex flex-col leading-none">
-            <span className="font-display text-[15px] font-extrabold tracking-[0.12em] text-ink">SIZE IT UP</span>
+            <span className="font-display text-[15px] font-extrabold tracking-[0.12em] text-ink">SizIQ</span>
             <span className="mt-1 text-[10px] font-medium text-ink-muted">{t('dedicationTag')}</span>
           </span>
         </a>

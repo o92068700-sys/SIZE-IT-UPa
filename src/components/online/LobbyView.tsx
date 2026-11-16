@@ -87,7 +87,7 @@ export default function LobbyView({
     if (nav.share) {
       try {
         await nav.share({
-          title: 'Size It Up',
+          title: 'SizIQ',
           text: t('onlineShareText', { code: room.code }),
           url: link,
         });

@@ -1,6 +1,6 @@
 @echo off
 chcp 65001 >nul
-title Size It Up — رفع عالـ GitHub
+title SizIQ — رفع عالـ GitHub
 cd /d "%~dp0"
 set GIT=C:\Program Files\Git\bin\git.exe
 

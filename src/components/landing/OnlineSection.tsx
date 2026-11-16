@@ -8,9 +8,9 @@ interface OnlineSectionProps {
 }
 
 const DEMO_PLAYERS = [
-  { name: 'Omar', score: 812, you: true },
-  { name: 'Lina', score: 764, you: false },
-  { name: 'Yousef', score: 690, you: false },
+  { name: 'Maherco', score: 812, you: true },
+  { name: 'Tikriti', score: 764, you: false },
+  { name: 'hexawi', score: 690, you: false },
 ];
 
 const FEATURES = [
@@ -153,7 +153,7 @@ export default function OnlineSection({ onOnline }: OnlineSectionProps) {
             </div>
 
             <div className="flex items-center justify-between px-1 pt-2.5 text-[10px] text-ink-muted">
-              <span className="tracking-[0.14em]">SIZE IT UP · ONLINE</span>
+              <span className="tracking-[0.14em]">SizIQ · ONLINE</span>
               <span className="inline-flex items-center gap-1">
                 <span className="h-1.5 w-1.5 rounded-full bg-kick" aria-hidden="true" />
                 {t('onlineNoSignup')}

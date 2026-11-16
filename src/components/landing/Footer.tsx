@@ -13,7 +13,7 @@ export default function Footer() {
             <span className="absolute bottom-0 left-[70%] h-1.5 w-px bg-onair" aria-hidden="true" />
           </span>
           <div>
-            <p className="font-display text-xs font-extrabold tracking-[0.14em] text-ink">SIZE IT UP</p>
+            <p className="font-display text-xs font-extrabold tracking-[0.14em] text-ink">SizIQ</p>
             <p className="text-[10px] text-ink-muted">{t('footerTagline')}</p>
           </div>
         </div>

@@ -121,7 +121,7 @@ export default function Hero({ onStart }: HeroProps) {
             </div>
 
             <div className="flex items-center justify-between px-1 pt-2.5 text-[10px] text-ink-muted">
-              <span className="tracking-[0.14em]">SIZE IT UP</span>
+              <span className="tracking-[0.14em]">SizIQ</span>
               <span className="tabular-nums">1:1</span>
             </div>
           </motion.div>

@@ -64,7 +64,7 @@ export default function IntroSequence() {
           transition={{ duration: 0.65, ease: [0.76, 0, 0.24, 1] }}
         >
           <div className="flex items-start justify-between text-xs font-medium text-ink-muted">
-            <span className="font-display text-sm font-extrabold tracking-[0.14em] text-ink">SIZE IT UP</span>
+            <span className="font-display text-sm font-extrabold tracking-[0.14em] text-ink">SizIQ</span>
             <button
               type="button"
               autoFocus
